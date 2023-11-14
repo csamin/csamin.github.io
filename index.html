@@ -148,10 +148,13 @@
               <div class="resume-section-content">
                 <h2 class="mb-5">Publications</h2>
                 <p>
+                <span>&#8226; </span> 
                   <a href="https://ieeexplore.ieee.org/abstract/document/10190640?casa_token=f59IDzZlUxkAAAAA:QJ7znBCoqsZV8ghQ6bMKPPlF0cVwg8yIC4OG5detHh2I8tN1bahLgEis7YKPz-v_vHc9err_">
                     Chowdhury, S. Y., Dudley, B., & Sun, R. (2023, July). The Case for Virtual PLC-enabled Honeypot Design. In 2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW) (pp. 351-357). IEEE.
+                  </a>
                 </p>  
                 <p>
+                <span>&#8226;  </span>
                   <a href="https://ieeexplore.ieee.org/abstract/document/10190657?casa_token=zpbIS3K3xWAAAAAA:SqA34f9SMxtW044SKzGdEZNX8gYSY9gpx3fNom2XIq_jX1EGD6wXLTO2v5IaIRKxW2B7yZUP">
                     Zheng, X., Wang, T., Chowdhury, S. Y., Sun, R., & Luo, D. (2023, July). Unsafe Behavior Detection with Adaptive Contrastive Learning in Industrial Control Systems. In 2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW) (pp. 363-369). IEEE.
                   </a>
@@ -161,43 +164,58 @@
             </section>
             <!-- Skills-->
             <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fa-brands fa-python" title="Python"></i></li>
-                        <li class="list-inline-item"><i class="fa-solid fa-c" title="C"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-java" title="Java"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-uncharted" title="ABAP"></i></li>
-                        <li class="list-inline-item"><i class="fa-solid fa-database" title="MySQL"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-laravel" title="Laravel"></i></li>
-                        <li class="list-inline-item"><i class="fa-solid fa-flask" title="Flask"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-bootstrap" title="Bootstrap"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-docker" title="Docker"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-php" title="PHP"></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-js" title="Javascript"></i></i></li>
-                        <li class="list-inline-item"><i class="fa-brands fa-git" title="GIT"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
+              <div class="resume-section-content">
+                  <h2 class="mb-5">Skills & Projects</h2>
+                  <div class="subheading mb-3">Programming Languages & Tools</div>
+                  <ul class="list-inline dev-icons">
+                      <li class="list-inline-item"><i class="fa-brands fa-python" title="Python"></i></li>
+                      <li class="list-inline-item"><i class="fa-solid fa-c" title="C"></i></li>
+                      <li class="list-inline-item"><i title="C++"><img class="custom-icon" src="assets/cplus.svg" alt="C++ Icon"></i></li>
+                      <li class="list-inline-item"><i class="fa-solid fa-database" title="MySQL"></i></li>
+                      <li class="list-inline-item"><i class="fa-solid fa-flask" title="Flask"></i></li>
+                      <li class="list-inline-item"><i class="fa-brands fa-bootstrap" title="Bootstrap"></i></li>
+                      <li class="list-inline-item"><i class="fa-brands fa-docker" title="Docker"></i></li>
+                      <li class="list-inline-item"><i class="fa-brands fa-php" title="PHP"></i></li>
+                      <li class="list-inline-item"><i class="fa-brands fa-js" title="Javascript"></i></i></li>
+                      <li class="list-inline-item"><i class="fa-brands fa-git" title="GIT"></i></li>
+                  </ul>
+                  <div class="subheading mb-3">Projects</div>
+                  <!-- do projects -->
+                  <details>
+                      <summary>Autnomous Robot</summary>
+                      <small>
+                          <ul>
+                              Built an autonomous robot implementing Simultaneous Localization and Mapping(SLAM) algorithm. Developed a robot which creates a 2D map and localizes itself simultaneously as it moves through an unknown environment to reach a specified destination avoiding obstacles in its planned route. Used Robot Operating System (ROS) running on top of Ubuntu.
+                          </ul>                           
+                      </small>
+                  </details>
+                  <details>
+                      <summary>Job Shop Scheduling with RL and Visualization</summary>
+                      <small>
+                          <ul>
+                              <li>Implemented Reinforcement Learning for faster decision making for scheduling</li>
+                              <li>Finding optimized path for a tasklist with limited resource</li>
+                              <li>Visualizing results in a Flask webapp with D3js</li>
+                          </ul>
+                      </small>
+                  </details>
+                  <details>
+                      <summary>Data Maintenance Dashboard and UI Prototyping</summary>
+                      <small>
+                          <ul>
+                              <li>Create a prototype for a customer with functional UI in OO ALV</li>
+                              <li>Locking functionality preventing doing the changes by a different user in the application</li>
+                              <li>Technology Used: Dialog Programming, Screen Painter, OO ALV using class CL_GUI_ALV_GRID</li>
+                          </ul>
+                      </small>
+                  </details>
+                  <details>
+                      <summary>Fall Detection Device</summary>
+                      <ul>
+                          <small>The device was based on the idea that whenever a fall occurs, it is highly predictable that the force of the body towards earth will reduce drastically. The device was able to identify this phenomenon with Force Sensitive Resistor (FSR) and couple it with posture detection through IMU to reach a conclusion.</small>
+                      </ul>
+                  </details>
+              </div>
             </section>
             <hr class="m-0" />
             <!-- Interests-->

@@ -96,16 +96,13 @@ var cyclic_t;
   Let's load the example images first.
 */
 function preload() {
-  // "Young man reading by candlelight", Matthias Stom, 1600-1650
+  // "Young man
   images[0] =
     loadImage('images/profile.jpg');
-  // "Le Penseur", Auguste Rodin, 1880
-  images[1] =loadImage('images/porto_2022.jpg');
-  // "American Gothic", Grant DeVolson Wood, 1930
 }
 
 function setup() {
-  createCanvas(640, 480); // we need some space...
+  createCanvas(400, 300); // we need some space...
   /*
     In this particular case the gfx helper should have dimensions the same as
     the target graphic.
@@ -138,7 +135,7 @@ function setup() {
   /*
     Finally we set the framerate.
   */
-  frameRate(30);
+  frameRate(15);
 }
 
 function draw() {

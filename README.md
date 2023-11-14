@@ -1,2 +1,2 @@
-# csamin.github.io
-A brazen two-column theme for Jekyll.
+#Todos
+expand/collapes projects on hover gliding pictures

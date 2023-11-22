@@ -11486,3 +11486,8 @@ to {opacity: 1}
     opacity: 1;
   }
 }
+
+mark {
+  background-color: white;
+  color: black;
+}

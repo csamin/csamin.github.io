@@ -11491,3 +11491,28 @@ mark {
   background-color: white;
   color: black;
 }
+
+.popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d2d2d2;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+/* .toggle-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #888;
+} */
